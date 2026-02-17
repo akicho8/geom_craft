@@ -1,3 +1,7 @@
+if $0 == __FILE__
+  $LOAD_PATH.unshift("..")
+end
+
 module GeomCraft
   # 普通は rand の実行回数が少ないこっちを使う
   # 平均(mean) で 標準偏差が 1.0 (7割が±1.0の範囲にあるという意味)
